@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function revnum(num)
+        {
+            let rev=0;
+            while(num>0)
+        {
+          let rem=num%10;
+       
+        rev=rev*10+rem;
+        num= Math.floor(num/10);
+
+        }
+        return rev;
+        }
+        console.log(revnum(179));
+        </script>
+</head>
+<body>
+    
+</body>
+</html>
